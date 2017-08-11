@@ -3,10 +3,10 @@ import { render } from 'react-dom'
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import ReactDOM from 'react-dom'
-import todos from './src/reducers/todos'
+import todoApp from './src/reducers/index'
 import App from './src/components/App'
 
-let store  = createStore(todos)
+let store  = createStore(todoApp)
 
 ReactDOM.render(
 		<Provider store={store}>
