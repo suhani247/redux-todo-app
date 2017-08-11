@@ -1,0 +1,49 @@
+body{
+	font-family: Helvetica, Arial, sans-serif;
+	background-color:  #ffcc66;
+}
+
+
+.list{
+	display : inline-block;
+	margin : 10px;
+	font-size: 20px;
+	
+}
+
+.outer-list{
+	padding :0px;
+	color : white;
+	background-color : black;
+}
+
+li a{
+  color : white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+
+.inside-page{
+	background-color: #ffcc66;
+	margin : 0px 30px 50px 10px;
+}
+
+.icon-display{
+	height : 50px;
+	width : 50px;
+}
+
+.contactDetails{
+	margin-bottom: 50px;
+	
+}
+
+.active{
+	background-color: #3399ff;
+}
+
+.slide-div{
+	width : 50%;
+}
